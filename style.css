@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: casat cap;
   src: url(Fonts/CasatCapBoldPersonalUse-KqgX.ttf);
@@ -7,24 +12,59 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  background: url(images/sitebgblack.png);
+  color: #fafaf9;
+  font-family: 'Roboto', sans-serif;
+  padding: 40px;
+}
+.header {
+  margin-bottom: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.fact-form {
+  background-color: #404040;
+  margin-bottom: 40px;
+  padding: 16px 40px;
+  text-align: center;
+}
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  text-align: center;
+  line-height: 1;
   font-family: 'Coiny', sans-serif;
 }
 
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  background-color: hsl(0, 0%, 25%);
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
 }
 
 .tag {
   text-transform: uppercase;
   font-size: 14px;
   font-family: 'Coiny', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.vote-buttons {
+  margin-left: auto;
 }
 
 ul {
