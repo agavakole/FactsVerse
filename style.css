@@ -19,6 +19,9 @@ body {
   font-family: 'Roboto', sans-serif;
   padding: 48px 64px;
 }
+.hidden {
+  display: none !important;
+}
 
 /* MAIN LAYOUT */
 .container {
@@ -192,8 +195,7 @@ ul {
 .btn-all-categories {
   margin-bottom: 16px;
   width: 100%;
-  background-color: #52525b;
-  background-image: none;
+  background-image: linear-gradient(135deg, #52525b, #8b5cf6);
 }
 
 .btn-category {

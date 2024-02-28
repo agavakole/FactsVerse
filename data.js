@@ -1,31 +1,31 @@
 const CATEGORIES = [
-  { name: "technology", color: "#3b82f6" },
-  { name: "science", color: "#16a34a" },
-  { name: "finance", color: "#ef4444" },
-  { name: "society", color: "#eab308" },
-  { name: "entertainment", color: "#db2777" },
-  { name: "health", color: "#14b8a6" },
-  { name: "history", color: "#f97316" },
-  { name: "news", color: "#8b5cf6" },
+  { name: 'react', color: '#3b82f6' },
+  { name: 'supabase', color: '#16a34a' },
+  { name: 'html', color: '#ef4444' },
+  { name: 'python', color: '#eab308' },
+  { name: 'css', color: '#db2777' },
+  { name: 'node.js', color: '#14b8a6' },
+  { name: 'c', color: '#f97316' },
+  { name: 'java', color: '#8b5cf6' },
+  { name: 'javascript', color: '#79b7ca' },
 ];
 
 const initialFacts = [
   {
     id: 1,
-    text: "React is being developed by Meta (formerly facebook)",
-    source: "https://opensource.fb.com/",
-    category: "technology",
+    text: 'Reacts virtual DOM efficiently updates the UI by selectively rendering only the components that have changed, resulting in faster performance and a smoother user experience.',
+    source: 'https://react.dev/',
+    category: 'react',
     votesInteresting: 24,
     votesMindblowing: 9,
-    votesFalse: 4,
+    votesFalse: 3,
     createdIn: 2021,
   },
   {
     id: 2,
-    text: "Millennial dads spend 3 times as much time with their kids than their fathers spent with them. In 1982, 43% of fathers had never changed a diaper. Today, that number is down to 3%",
-    source:
-      "https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids",
-    category: "society",
+    text: 'With JavaScript, you can create interactive elements on web pages, such as games, forms with validation, sliders, and much more.',
+    source: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    category: 'javascript',
     votesInteresting: 11,
     votesMindblowing: 2,
     votesFalse: 0,
@@ -33,9 +33,10 @@ const initialFacts = [
   },
   {
     id: 3,
-    text: "Lisbon is the capital of Portugal",
-    source: "https://en.wikipedia.org/wiki/Lisbon",
-    category: "society",
+    text: 'HTML provides the structure for web pages and supports multimedia elements like images, videos, and audio, enabling developers to create rich and immersive content',
+    source:
+      'https://www.linkedin.com/advice/0/how-can-html5-used-create-engaging-multimedia-2xuwc',
+    category: 'html',
     votesInteresting: 8,
     votesMindblowing: 3,
     votesFalse: 1,
@@ -45,4 +46,4 @@ const initialFacts = [
 
 // LINK TO APP SAMPLE DATA: https://docs.google.com/spreadsheets/d/1eeldcA_OwP4DHYEvjG0kDe0cRys-cDPhc_E9P9G1e3I/edit#gid=0
 
-// 👍 🤯 ⛔️
+// 👍 🤯
