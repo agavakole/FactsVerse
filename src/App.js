@@ -1,4 +1,4 @@
-import './src/style.css';
+import '';
 function App() {
   return (
     <header className="header">
