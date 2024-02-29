@@ -72,9 +72,12 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
+*::-webkit-scrollbar {
+  display: none;
+}
 section {
   overflow: scroll;
+
   padding-bottom: 40px;
 }
 
